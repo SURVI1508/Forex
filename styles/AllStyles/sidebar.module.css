@@ -1,0 +1,142 @@
+.main__main__div {
+    /* background: rgb(255, 183, 183); */
+    height: auto;
+    width: 100%;
+}
+
+.main__main__container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-left: 1rem;
+}
+
+.sidebar__main__div {
+    background: rgb(255, 255, 255);
+
+    height: 100%;
+    width: 0px;
+    /* overflow-y: scroll; */
+    /* position: absolute; */
+    /* display: none; */
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.sidebar__main__container {
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar__main__container__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar__brand__logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    /* position: relative; */
+    margin-top: 2rem;
+
+}
+
+.sidebar__brand__logo img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.sidebar__dashboard__list__container {
+    /* border: 2px solid rgb(94, 255, 0); */
+    width: 100%;
+
+}
+
+.sidebar__dashboard__text {
+    width: 217px;
+    height: 47px;
+    border: 1px solid #0099FB;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #0099FB;
+    gap: 1rem;
+    margin: 2rem auto;
+}
+
+
+
+.sidebar__dashboard__user__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid rgb(94, 255, 0); */
+    margin-top: 2rem;
+    /* position: fixed; */
+}
+
+.sidebar__dashboard__user__dropdown {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-weight: 600;
+    color: #878787;
+    font-size: 18px;
+    /* background: rgb(255, 101, 101); */
+    gap: 1rem;
+    padding: 0 2rem;
+    box-sizing: border-box;
+}
+
+.sidebar__dashboard__user__dropdown__list {
+    height: 0px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 3.2rem;
+    box-sizing: border-box;
+    margin: 1rem 0;
+    overflow: hidden;
+}
+
+.sidebar__dashboard__user__dropdown__list span {
+    margin: 0.4rem 0;
+    color: #878787;
+    font-weight: 400;
+    /* font-size: 12px; */
+}
+
+.sidebar__dashboard__user__dropdown__Arrow {
+    font-size: 1.5rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.sidebar__dashboard__user__container button {
+    margin: 0 auto !important;
+    width: 231px;
+    height: 48px;
+    background: #007AFF;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    margin-right: 6rem;
+}
+
+.sidebar__dashboard__user__container button:hover {
+    background: #ff3e3e;
+    transition: 0.2s;
+}

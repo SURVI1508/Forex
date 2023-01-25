@@ -1,0 +1,9 @@
+.dashboard__main__div {
+    width: 100%;
+    background: #F5F6FA;
+    border-radius: 55px 0px 0px 55px;
+    overflow: hidden;
+}
+.dashboard__main__container{
+    padding: 2rem;
+}

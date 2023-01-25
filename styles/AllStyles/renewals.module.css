@@ -1,0 +1,164 @@
+.renewals__main__div {
+    width: 100%;
+}
+
+.renewals__main__container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid rebeccapurple; */
+    justify-content: space-between;
+}
+
+.renewals__card {
+    height: 261px;
+    width: 360.06475830078125px;
+    background: #FFFFFF;
+    border: 1px solid #D3D3D3;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    position: relative;
+    overflow: hidden;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
+.renewals__card__bottom {
+    position: absolute;
+    height: 137.84243949660652px;
+    width: 139.11px;
+    top: 160px;
+    border-radius: 10px;
+    background: #D8EFFE;
+    border-radius: 10px;
+    transform: matrix(0.70, -0.67, 0.66, 0.70, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 1.2rem;
+}
+
+.renewals__card__bottom img {
+    transform: rotate(40deg);
+}
+
+.renewals__card__price__text {
+    position: absolute;
+    left: 3.5rem;
+    top: 1rem;
+    /* margin: 0 auto; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.renewals__card__price__text p {
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.renewals__card__price__text span {
+    font-weight: 400;
+    font-size: 22px;
+    color: #878787;
+}
+
+.comodity__type {
+    /* background: rgba(0, 0, 0, 0.582); */
+    height: auto;
+    width: 180px;
+    position: absolute;
+    bottom: 1rem;
+    right: 0;
+}
+
+.comodity__type__color {
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 2rem; */
+    padding: 0.5rem 1rem;
+}
+
+.comodity__type__color span {
+    font-weight: 500;
+    font-size: 16px;
+    color: #878787;
+}
+
+.comodity__type__gold {
+    height: 27px;
+    width: 47px;
+
+    border-radius: 5px;
+
+    background: rgba(231, 251, 0, 0.58);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.renewals__card__upcoming {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* align-items: center; */
+    padding: 1.5rem 0;
+}
+
+.renewals__card__upcoming__price {
+    width: 302px;
+    height: 47px;
+    background: #FFFFFF;
+    border: 1px solid #D3D3D3;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.2rem 1rem;
+    margin: 0 auto;
+}
+
+.renewals__card__upcoming__price p {
+    font-weight: 500;
+    font-size: 16px;
+    color: #878787;
+}
+
+.renewals__card__upcoming__price span {
+    font-weight: 500;
+    font-size: 14px;
+    color: #878787;
+}
+
+.gold {
+    height: 17px;
+    width: 45px;
+    background: rgba(231, 251, 0, 0.58);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 10px;
+    padding: 0 0.5rem;
+}
+
+.renewals__card__upcoming__heading {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.renewals__card__upcoming__seeAll {
+    font-weight: 700;
+    font-size: 14px;
+    margin-left: 2rem;
+    margin-top: 1rem;
+
+}

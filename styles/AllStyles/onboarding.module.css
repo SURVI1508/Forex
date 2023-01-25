@@ -1,0 +1,127 @@
+.onboarding__module__css {
+    width: 100%;
+
+}
+
+.onboarding__main__div__container {
+    width: 100%;
+    /* border: 1px solid red */
+    padding: 1.5rem 0;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.onboarding__main__box {
+    width: 45%;
+    /* width: 546px; */
+
+    height: 445px;
+    background: #FFFFFF;
+    border: 1px solid #D3D3D3;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    padding: 1rem;
+}
+
+.onboarding__main__heading {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 1rem;
+    margin-left: 0.6rem;
+
+}
+
+.onboarding__main__box__th {
+    width: 95%;
+    /* width: 492px; */
+
+    height: 42px;
+    background: #0099FB;
+    border: 1px solid #D3D3D3;
+    border-radius: 5px 5px 0px 0px;
+    display: flex;
+    align-items: center;
+    color: white;
+    margin: 0 auto;
+    padding-left: 2rem;
+
+}
+
+.onboarding__main__box__td {
+    /* width: 495px; */
+    width: 90%;
+
+    height: 42px;
+    /* background: rgb(121, 117, 117); */
+    border: 0.1px solid #D3D3D3;
+    display: flex;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    display: inline;
+}
+
+.onboarding__main__box table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+.onboarding__main__box span {
+    font-weight: 700;
+    font-size: 18px;
+    margin-right: 4rem;
+    color: white;
+}
+
+.onboarding__main__box__td {
+    /* width: 492px; */
+    width: 95%;
+
+    height: 42px;
+    background: #ffffff;
+    border: 1px solid #D3D3D3;
+    display: flex;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    margin: 0 auto;
+    padding-left: 1.5rem;
+}
+
+.onboarding__main__box td {
+    text-align: left;
+    padding: 8px;
+    margin-right: 2.8rem;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.onboarding__main__box__td button {
+    width: 88px;
+    height: 27px;
+    background: #0099FB;
+    border: 1px solid #D3D3D3;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 12px;
+    color: white;
+}
+
+.onboarding__allCustomer__btn {
+    width: 166px;
+    height: 30px;
+    background: #0099FB;
+    border: 1px solid #D3D3D3;
+    border-radius: 5px;
+    margin-top: 1.7rem;
+    margin-left: 0.6rem;
+    font-weight: 700;
+    font-size: 12px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+}
