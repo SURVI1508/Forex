@@ -18,7 +18,6 @@ const hide = () => {
     } else {
         sideBar.style.width = "0px"
         // hideArr.style.transform = "rotate(180deg)"
-
     }
 }
 
@@ -40,13 +39,13 @@ const Header = () => {
 
             </div>
             <div className={styles.feture__card__container}>
-                {/* <Feature /> */}
+                <Feature />
             </div>
             <div className={styles.graph__container}>
                 <Graph />
             </div>
             <div className={styles.graph__container}>
-                {/* <Onboarding /> */}
+                <Onboarding />
             </div>
             <div className={styles.graph__container}>
                 <Renewals />

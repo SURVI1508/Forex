@@ -8,12 +8,10 @@ const Nav = () => {
         <div className={styles.nav__main__div}>
             <input type="text" placeholder='🔍 Search' />
             <div className={styles.prfile__div}>
-                <AiFillMessage style={{color: "#19A2FB"}}/>
-                        <div className = {styles.avtar
-                } ></div>
-            <IoIosArrowDown style={{color: "gray"}}/>
-
-        </div>
+                <AiFillMessage style={{ color: "#19A2FB" }} />
+                <div className={styles.avtar} ></div>
+                <IoIosArrowDown style={{ color: "gray" }} />
+            </div>
         </div >
     )
 }
