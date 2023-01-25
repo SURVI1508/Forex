@@ -12,7 +12,7 @@ const Graph = () => {
                     <div className={styles.graph__box__img}>
                         <h3 className={styles.heading__graph}>Viewership Installs & Signups Graph</h3>
                         <div>
-                            <img src="./images/graph.jpeg" alt="" />
+                            <img src="./images/graph.jpeg" alt="graph" />
                         </div>
                     </div>
 
