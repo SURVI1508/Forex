@@ -6,8 +6,8 @@ const Main = () => {
     return (
         <div className={styles.main__main__div}>
             <div className={styles.main__main__container}>
-                <Sidebar />
-                {/* <Dashboard/> */}
+                {/* <Sidebar /> */}
+                <Dashboard/>
                 {/* <div>hgvghv</div> */}
             </div>
         </div>
