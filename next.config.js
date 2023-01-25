@@ -3,7 +3,7 @@
  const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  webpack:true
+  // webpack:true
   // future: {
   //   webpack5: true,
   // },
